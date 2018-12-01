@@ -1,0 +1,33 @@
+{
+    "editor.fontSize": 16,
+    "php.suggest.basic": false,
+    "workbench.colorTheme": "Monokai",
+    "phpcs.standard": "PSR2",
+    "php.validate.executablePath": "/usr/local/bin/php",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.executablePath": "~/.composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.rules": {
+        "@PSR2": true,
+        "@Symfony": true,
+        "@DoctrineAnnotation": true,
+        "no_unused_imports": true,
+        "ordered_class_elements": true,
+        "ordered_imports": true,
+        "phpdoc_add_missing_param_annotation": true,
+        "phpdoc_no_empty_return": true,
+        "array_syntax": {
+            "syntax": "short"
+        }
+    },
+    "phpcs.ignorePatterns": [
+        "*Spec.php"
+    ],
+    "php-cs-fixer.exclude": [
+        "*Spec.php"
+    ],
+    "window.zoomLevel": 1
+}
