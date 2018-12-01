@@ -10,5 +10,8 @@
     ~/Library/Application Support/Code/User/settings.json:
       path: vscode/settings.json
 
+# Update dotbot
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+  -
+    description: Installing submodules
+    command: git submodule update --init --recursive
