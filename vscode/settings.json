@@ -3,7 +3,7 @@
     "php.suggest.basic": false,
     "workbench.colorTheme": "Monokai",
     "phpcs.standard": "PSR2",
-    "php.validate.executablePath": "/usr/local/bin/php",
+    "php.validate.executablePath": "/usr/bin/php",
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": false,
     "explorer.openEditors.visible": 0,
