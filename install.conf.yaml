@@ -5,10 +5,16 @@
 
 - clean: ['~']
 
-# Visual Studio Code
+# Visual Studio Code - macOS
 - link:
     ~/Library/Application Support/Code/User/settings.json:
       path: vscode/settings.json
+      if: '[ ! -f "/etc/debian_version" ]'
+
+# Visual Studio Code - Debian
+    ~/.config/Code/User/settings.json:
+      path: vscode/settings.json
+      if: '[ -f "/etc/debian_version" ]'
 
 # Update dotbot
 - shell:
