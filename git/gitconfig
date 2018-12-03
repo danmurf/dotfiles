@@ -1,0 +1,6 @@
+[user]
+	name = Dan Murfitt
+	email = dan@murfitt.net
+
+[core]
+    excludesfile = ~/.gitignore_global
