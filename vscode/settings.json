@@ -28,6 +28,5 @@
     ],
     "php-cs-fixer.exclude": [
         "*Spec.php"
-    ],
-    "window.zoomLevel": 1
+    ]
 }
