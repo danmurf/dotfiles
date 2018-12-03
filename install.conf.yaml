@@ -16,6 +16,10 @@
       path: vscode/settings.json
       if: '[ -f "/etc/debian_version" ]'
 
+# Git
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
+
 # Update dotbot
 - shell:
   -
