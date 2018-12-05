@@ -28,5 +28,6 @@
     ],
     "php-cs-fixer.exclude": [
         "*Spec.php"
-    ]
+    ],
+    "php.executablePath": "/usr/bin/php"
 }
