@@ -5,8 +5,12 @@
 
 - clean: ['~']
 
-# Visual Studio Code - macOS
+
 - link:
+    ~/.shell:
+    ~/.bashrc:
+
+    # Visual Studio Code - macOS
     ~/Library/Application Support/Code/User/settings.json:
       path: vscode/settings.json
       if: '[ ! -f "/etc/debian_version" ]'
