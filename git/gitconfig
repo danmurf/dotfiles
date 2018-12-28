@@ -1,8 +1,11 @@
 [user]
 	name = Dan Murfitt
 	email = dan@murfitt.net
+	signingkey = 875CFE9940ED1A3867FD52904475702A9F44876C
 
 [core]
     excludesfile = ~/.gitignore_global
 [commit]
 	gpgsign = true
+[gpg]
+	program = gpg2
