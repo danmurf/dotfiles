@@ -9,7 +9,7 @@
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
     "php-cs-fixer.onsave": true,
-    "php-cs-fixer.executablePath": "~/.composer/vendor/bin/php-cs-fixer",
+    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
     "php-cs-fixer.rules": {
         "@PSR2": true,
         "@Symfony": true,
