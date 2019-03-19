@@ -18,6 +18,8 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
 
+# Vim
+    ~/.vimrc: vim/vimrc
 # Update dotbot
 - shell:
   -
