@@ -20,6 +20,7 @@
 
 # Vim
     ~/.vimrc: vim/vimrc
+
 # Update dotbot
 - shell:
   -
