@@ -5,7 +5,7 @@
 
 [core]
     excludesfile = ~/.gitignore_global
-[commit]
-	gpgsign = true
+# [commit]
+# 	gpgsign = true
 [gpg]
 	program = gpg2
