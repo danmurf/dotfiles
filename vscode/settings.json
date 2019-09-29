@@ -29,4 +29,15 @@
     "php-cs-fixer.exclude": [
         "*Spec.php"
     ],
+    "go.autocompleteUnimportedPackages": true,
+    "go.useLanguageServer": true,
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "go.toolsEnvVars": {
+        "GOFLAGS": "-mod=vendor"
+    }
 }
