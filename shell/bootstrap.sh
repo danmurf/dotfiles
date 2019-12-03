@@ -12,6 +12,9 @@ export PATH="/Users/dan/go/bin:$PATH"
 # Add Ruby bin to path
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
+# Add renv Ruby version to path
+export PATH="$HOME/.gem/ruby/2.6.0/bin:$PATH"
+
 # Default global composer directory
 export COMPOSER_HOME="~/.composer"
 
