@@ -9,6 +9,9 @@ export PATH="/Users/dan/.composer/vendor/bin:$PATH"
 # Add go bin to path
 export PATH="/Users/dan/go/bin:$PATH"
 
+# Add Ruby bin to path
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 # Default global composer directory
 export COMPOSER_HOME="~/.composer"
 
