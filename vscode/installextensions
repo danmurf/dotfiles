@@ -13,3 +13,4 @@ code --install-extension ms-vscode.Go
 code --install-extension neilbrayfield.php-docblocker
 code --install-extension phproberto.vscode-php-getters-setters
 code --install-extension whatwedo.twig
+code --install-extension streetsidesoftware.code-spell-checker
