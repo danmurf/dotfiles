@@ -34,4 +34,5 @@
     "go.formatTool": "goimports",
     "git.enableCommitSigning": true,
     "files.insertFinalNewline": true,
+    "plantuml.exportOutDir": "diagrams",
 }
