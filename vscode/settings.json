@@ -35,4 +35,5 @@
     "git.enableCommitSigning": true,
     "files.insertFinalNewline": true,
     "plantuml.exportOutDir": "diagrams",
+    "explorer.compactFolders": false,
 }
