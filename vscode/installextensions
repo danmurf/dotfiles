@@ -15,3 +15,4 @@ code --install-extension phproberto.vscode-php-getters-setters
 code --install-extension whatwedo.twig
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension jebbs.plantuml
+code --install-extension alexkrechik.cucumberautocomplete
