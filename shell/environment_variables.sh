@@ -1,4 +1,1 @@
-export DIGITALOCEAN_REGION="lon1"
-export DIGITALOCEAN_MONITORING="true"
-export DIGITALOCEAN_SIZE="1gb"
-
+#!/usr/bin/env bash
