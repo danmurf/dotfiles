@@ -11,6 +11,9 @@ code --install-extension junstyle.php-cs-fixer
 code --install-extension marcostazi.VS-code-vagrantfile
 code --install-extension mikestead.dotenv
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-vscode-remote.remote-containers
 code --install-extension neilbrayfield.php-docblocker
 code --install-extension phproberto.vscode-php-getters-setters
 code --install-extension streetsidesoftware.code-spell-checker
