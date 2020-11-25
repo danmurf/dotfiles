@@ -41,4 +41,7 @@
     "go.lintTool": "golangci-lint",
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.useLanguageServer": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
 }
