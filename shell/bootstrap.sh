@@ -11,3 +11,5 @@ export COMPOSER_HOME="~/.composer"
 
 # Add sbin to path to keep brew doctor happy
 export PATH="/usr/local/sbin:$PATH"
+
+export PATH="$HOME/.composer/vendor/bin:$PATH"
