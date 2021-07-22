@@ -45,4 +45,7 @@
     },
     "go.goroot": "/usr/local/bin/go",
     "go.toolsManagement.autoUpdate": true,
+    "go.lintFlags": [
+        "--fast"
+    ],
 }
