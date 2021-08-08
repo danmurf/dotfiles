@@ -1,6 +1,5 @@
 {
     "editor.fontSize": 14,
-    "php.suggest.basic": false,
     "workbench.colorTheme": "Monokai",
     "phpcs.standard": "PSR2",
     "php.validate.executablePath": "/usr/bin/php",
@@ -8,7 +7,7 @@
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
     "php-cs-fixer.onsave": true,
-    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "php-cs-fixer.rules": {
         "@PSR2": true,
         "@Symfony": true,
@@ -48,4 +47,6 @@
     "go.lintFlags": [
         "--fast"
     ],
+    "php.suggest.basic": false,
+    "php-cs-fixer.lastDownload": 1628406438518,
 }
