@@ -2,9 +2,11 @@
 
 code --install-extension alexkrechik.cucumberautocomplete
 code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension budparr.language-hugo-vscode
 code --install-extension Cronos87.symfony-snippets
 code --install-extension eamodio.gitlens
 code --install-extension golang.go
+code --install-extension hashicorp.terraform
 code --install-extension jebbs.plantuml
 code --install-extension junstyle.php-cs-fixer
 code --install-extension k--kato.intellij-idea-keybindings
@@ -12,6 +14,11 @@ code --install-extension marcostazi.VS-code-vagrantfile
 code --install-extension mikestead.dotenv
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.makefile-tools
+code --install-extension octref.vetur
 code --install-extension onecentlin.laravel-blade
+code --install-extension rexshi.phpdoc-comment-vscode-plugin
 code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension tamasfe.even-better-toml
 code --install-extension whatwedo.twig
+code --install-extension Zignd.html-css-class-completion
