@@ -7,7 +7,7 @@
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
     "php-cs-fixer.onsave": true,
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.executablePath": "/usr/local/bin/php-cs-fixer",
     "php-cs-fixer.rules": {
         "@PSR2": true,
         "@Symfony": true,
@@ -27,26 +27,21 @@
     "php-cs-fixer.exclude": [
         "*Spec.php"
     ],
-    "go.autocompleteUnimportedPackages": true,
-    "go.buildOnSave": "off",
-    "go.formatTool": "gofmt",
     "git.enableCommitSigning": true,
     "files.insertFinalNewline": true,
     "plantuml.exportOutDir": "diagrams",
     "explorer.compactFolders": false,
-    "go.installDependenciesWhenBuilding": true,
-    "go.lintOnSave": "file",
-    "go.lintTool": "golangci-lint",
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.useLanguageServer": true,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-    "go.goroot": "/usr/local/bin/go",
-    "go.toolsManagement.autoUpdate": true,
-    "go.lintFlags": [
-        "--fast"
-    ],
-    "php.suggest.basic": false,
-    "php-cs-fixer.lastDownload": 1628406438518,
+    "php-cs-fixer.lastDownload": 1645971298824,
+    "workbench.startupEditor": "none",
+    "go.buildOnSave": "off",
+    "go.coverOnSingleTest": true,
+    "go.coverOnSingleTestFile": true,
+    "go.inlayHints.constantValues": true,
+    "go.testEnvFile": "",
+    "go.testExplorer.packageDisplayMode": "nested",
+    "go.testExplorer.showDynamicSubtestsInEditor": true,
+    "go.buildTags": "all_tests",
 }
