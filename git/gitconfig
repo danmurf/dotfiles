@@ -1,14 +1,14 @@
 [user]
 	name = Dan Murfitt
 	email = dan@murfitt.net
-	signingkey = 4F23377D06E24694
+	signingkey = 9F53D31E8D7718C295B0400B4F23377D06E24694
 
 [core]
     excludesfile = ~/.gitignore_global
 [commit]
 	gpgsign = true
 [gpg]
-	program = gpg2
+	program = /usr/local/bin/gpg
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -16,3 +16,5 @@
 	required = true
 [init]
 	defaultBranch = master
+[pull]
+	rebase = false
